@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+p, h1, h2, h3{
+    color: #354049;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+    padding: 40px 10px;
+    margin-left: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#state-selector-btn{
+    background-color: #135499;
+    border-color: #135499;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#state-selector-btn:hover{
+    background-color: #114883;
+    border-color: #114883;
 }
 
-.App-link {
-  color: #61dafb;
+p.statementText{
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.covidPositive{
+    color: #d89479;
+}
+
+.covidNegative{
+    color: #9cbf9a;
+}
+
+.covidNeutral{
+    color: #4574ad;
+}
+
+.no-emphasis{
+    color: #616161;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom-padded{
+    padding-bottom: 40px;
+}
+
+#chatbot{
+    margin-left: 10%;
+}
+
+#chat-head{
+    background-color: #114883;
+}
+
+div.card-header{
+    background-color: #114883;
+}
+
+.light-text{
+    color: #f2f2f2;
+}
+
+#card-canvas{
+    margin-left: 10%;
 }
